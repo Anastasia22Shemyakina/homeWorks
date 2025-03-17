@@ -1,11 +1,15 @@
 
 class LowFuelError(Exception):
-    pass
+    def __init__(self, message="Недостаточно топлива для запуска"):
+        self.message = message
 
 
 class NotEnoughFuel(Exception):
-    pass
+    def __init__(self, message="Недостаточно топлива для движения"):
+        self.message = message
 
 
 class CargoOverload(Exception):
-    pass
+    def __init__(self, message="Превышена максимальная грузоподъемность"):
+        self.message = message
+ 
