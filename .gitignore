@@ -1,0 +1,17 @@
+# Игнорируем виртуальное окружение
+venv/
+
+# Кеш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest cache
+.pytest_cache/
+
+# Файлы среды разработки
+.idea/
+.vscode/
+
+# Логи
+*.log
