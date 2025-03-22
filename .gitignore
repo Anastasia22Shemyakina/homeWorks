@@ -1,0 +1,49 @@
+# Python кеш и байткод
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+.env
+venv.bak/
+ENV/
+env/
+env.bak/
+
+# Файлы среды разработки и редакторов
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы тестовых данных и результатов, которые не должны попадать в репозиторий
+result.json
+
+# Файлы, содержащие секретные данные или настройки
+*.secret
+*.env
+*.pem
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Jupyter Notebook checkpoint-файлы
+.ipynb_checkpoints
+
+# pytest кеш-файлы
+.pytest_cache/
+.coverage
+
+# Egg и dist файлы (при работе с setuptools или другими менеджерами пакетов)
+*.egg-info/
+dist/
+build/
+
+# Кеш и другие файлы кеширования
+.cache/
